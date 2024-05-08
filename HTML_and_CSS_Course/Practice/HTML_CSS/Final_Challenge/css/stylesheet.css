@@ -1,0 +1,132 @@
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-align: center;
+  }
+
+  img {
+    border-radius: 15px;
+  }
+
+  table {
+    border: 1px solid silver;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  td, tr {
+    padding: 1em;
+  }
+
+  th {
+    background-color: antiquewhite;
+  }
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column_1 {
+  background-color: grey;
+  height: 200px;
+}
+
+.column_2 {
+  background-color: bisque;
+  height: 200px;
+}
+
+p:hover {
+  background-color: black;
+  color: yellow;
+  cursor: pointer;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+
+}
+
+.image {
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: auto;
+  width: auto;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+  margin-left: 630px;
+  margin-right: 630px;
+  border-radius: 15px;
+}
+
+.container:hover .overlay {
+  opacity: 90%;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+video {
+  height: 500px;
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+@media screen and (max-width: 600px) {
+    p {
+      color: #008CBA;
+    }
+}
