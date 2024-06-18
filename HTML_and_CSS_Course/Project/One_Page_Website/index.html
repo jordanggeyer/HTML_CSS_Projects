@@ -5,10 +5,12 @@
 		<title>J Squared Auto Gallery</title>
 		<link rel="stylesheet" href="./CSS/shared.css">
 		<link rel="stylesheet" href="./CSS/animations.css">
+		<link rel="stylesheet" href="./CSS/lightbox.css">
 		<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
 		<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
 		<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
 		<link rel="manifest" href="favicon/site.webmanifest">
+		<script src="./JS/main.js" defer></script>
 	</head>
 	
 	<body>
@@ -44,8 +46,8 @@
 					<!-- PHOTO CONTAINER 1-->
 					<div class="photo-container">
 						<div class="photo">
-							<img width="800" height="450" src="./images/thumb/thumbnail_1.png" alt"TJ Hunts Racing Green Lamborghini Huracan">
-							<div class="photo-overlay">
+							<img width="800" height="450" src="./images/thumb/thumbnail_1.png" alt="TJ Hunts Racing Green Lamborghini Huracan">
+							<div class="photo-overlay" onclick="openModal();currentSlide(1)">
 								<h3>Click to Enlarge</h3>
 								<p>Schedule your track time today... adrenaline awaits!</p>
 							</div>
@@ -56,8 +58,8 @@
 					<!-- PHOTO CONTAINER 2-->
 					<div class="photo-container">
 						<div class="photo">
-							<img width="800" height="450" src="./images/thumb/thumbnail_2.png" alt"TJ Hunts Racing Green Ferrari four-five-eight GT3">
-							<div class="photo-overlay">
+							<img width="800" height="450" src="./images/thumb/thumbnail_2.png" alt="TJ Hunts Racing Green Ferrari four-five-eight GT3">
+							<div class="photo-overlay" onclick="openModal();currentSlide(2)">
 								<h3>Click to Enlarge</h3>
 								<p>Schedule your track time today... adrenaline awaits!</p>
 							</div>
@@ -68,8 +70,8 @@
 					<!-- PHOTO CONTAINER 3-->
 					<div class="photo-container">
 						<div class="photo">
-							<img width="800" height="450" src="./images/thumb/thumbnail_3.png" alt"Black Street Hunter Widebody Mk Five Supra">
-							<div class="photo-overlay">
+							<img width="800" height="450" src="./images/thumb/thumbnail_3.png" alt="Black Street Hunter Widebody Mk Five Supra">
+							<div class="photo-overlay" onclick="openModal();currentSlide(3)">
 								<h3>Click to Enlarge</h3>
 								<p>Schedule your track time today... adrenaline awaits!</p>
 							</div>
@@ -80,8 +82,8 @@
 					<!-- PHOTO CONTAINER 4-->
 					<div class="photo-container">
 						<div class="photo">
-							<img width="800" height="450" src="./images/thumb/thumbnail_4.png" alt"Black S650 Mustang Dark Horse">
-							<div class="photo-overlay">
+							<img width="800" height="450" src="./images/thumb/thumbnail_4.png" alt="Black S650 Mustang Dark Horse">
+							<div class="photo-overlay" onclick="openModal();currentSlide(4)">
 								<h3>Click to Enlarge</h3>
 								<p>Schedule your track time today... adrenaline awaits!</p>
 							</div>
@@ -92,8 +94,8 @@
 					<!-- PHOTO CONTAINER 5-->
 					<div class="photo-container">
 						<div class="photo">
-							<img width="800" height="450" src="./images/thumb/thumbnail_5.png" alt"Black Porsche C911 GT3 RS">
-							<div class="photo-overlay">
+							<img width="800" height="450" src="./images/thumb/thumbnail_5.png" alt="Black Porsche C911 GT3 RS">
+							<div class="photo-overlay" onclick="openModal();currentSlide(5)">
 								<h3>Click to Enlarge</h3>
 								<p>Schedule your track time today... adrenaline awaits!</p>
 							</div>
@@ -104,8 +106,8 @@
 					<!-- PHOTO CONTAINER 6-->
 					<div class="photo-container">
 						<div class="photo">
-							<img width="800" height="450" src="./images/thumb/thumbnail_6.png" alt"Carbon Siler Mercedes SLS AMG GTR">
-							<div class="photo-overlay">
+							<img width="800" height="450" src="./images/thumb/thumbnail_6.png" alt="Carbon Silver Mercedes SLS AMG GTR">
+							<div class="photo-overlay" onclick="openModal();currentSlide(6)">
 								<h3>Click to Enlarge</h3>
 								<p>Schedule your track time today... adrenaline awaits!</p>
 							</div>
@@ -116,8 +118,8 @@
 					<!-- PHOTO CONTAINER 7-->
 					<div class="photo-container">
 						<div class="photo">
-							<img width="800" height="450" src="./images/thumb/thumbnail_7.png" alt"Grabber Blue Widebody BMW M4 Slammed">
-							<div class="photo-overlay">
+							<img width="800" height="450" src="./images/thumb/thumbnail_7.png" alt="Grabber Blue Widebody BMW M4 Slammed">
+							<div class="photo-overlay" onclick="openModal();currentSlide(7)">
 								<h3>Click to Enlarge</h3>
 								<p>Schedule your track time today... adrenaline awaits!</p>
 							</div>
@@ -128,8 +130,8 @@
 					<!-- PHOTO CONTAINER 8-->
 					<div class="photo-container">
 						<div class="photo">
-							<img width="800" height="450" src="./images/thumb/thumbnail_8.png" alt"Carbon Grey Hennessey Chevy Camaro Exorcist">
-							<div class="photo-overlay">
+							<img width="800" height="450" src="./images/thumb/thumbnail_8.png" alt="Carbon Grey Hennessey Chevy Camaro Exorcist">
+							<div class="photo-overlay" onclick="openModal();currentSlide(8)">
 								<h3>Click to Enlarge</h3>
 								<p>Schedule your track time today... adrenaline awaits!</p>
 							</div>
@@ -140,8 +142,8 @@
 					<!-- PHOTO CONTAINER 9-->
 					<div class="photo-container">
 						<div class="photo">
-							<img width="800" height="450" src="./images/thumb/thumbnail_9.png" alt"R34 Midnight Purple Nissian GTR Skyline">
-							<div class="photo-overlay">
+							<img width="800" height="450" src="./images/thumb/thumbnail_9.png" alt="R34 Midnight Purple Nissian GTR Skyline">
+							<div class="photo-overlay" onclick="openModal();currentSlide(9)">
 								<h3>Click to Enlarge</h3>
 								<p>Schedule your track time today... adrenaline awaits!</p>
 							</div>
@@ -152,7 +154,105 @@
 			</div>
 		</section>
 		<!--END GALLERY-->
+		<!--LightBox Trial-->
+		  <div id="myModal" class="modal">
+			<span class="close cursor" onclick="closeModal()">&times;</span>
+			<div class="modal-content">
+		  
+			  <div class="mySlides">
+				<div class="numbertext">1 / 9</div>
+				<img src="./images/thumb/thumbnail_1.png" style="width:100%">
+			  </div>
+		  
+			  <div class="mySlides">
+				<div class="numbertext">2 / 9</div>
+				<img src="./images/thumb/thumbnail_2.png" style="width:100%">
+			  </div>
+		  
+			  <div class="mySlides">
+				<div class="numbertext">3 / 9</div>
+				<img src="./images/thumb/thumbnail_3.png" style="width:100%">
+			  </div>
+		  
+			  <div class="mySlides">
+				<div class="numbertext">4 / 9</div>
+				<img src="./images/thumb/thumbnail_4.png" style="width:100%">
+			  </div>
 
+			  <div class="mySlides">
+				<div class="numbertext">5 / 9</div>
+				<img src="./images/thumb/thumbnail_5.png" style="width:100%">
+			  </div>
+
+			  <div class="mySlides">
+				<div class="numbertext">6 / 9</div>
+				<img src="./images/thumb/thumbnail_6.png" style="width:100%">
+			  </div>
+
+			  <div class="mySlides">
+				<div class="numbertext">7 / 9</div>
+				<img src="./images/thumb/thumbnail_7.png" style="width:100%">
+			  </div>
+
+			  <div class="mySlides">
+				<div class="numbertext">8 / 9</div>
+				<img src="./images/thumb/thumbnail_8.png" style="width:100%">
+			  </div>
+
+			  <div class="mySlides">
+				<div class="numbertext">9 / 9</div>
+				<img src="./images/thumb/thumbnail_9.png" style="width:100%">
+			  </div>
+		  
+			  <!-- Next/previous controls -->
+			  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+			  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+		  
+			  <!-- Caption text -->
+			  <div class="caption-container">
+				<p id="caption"></p>
+			  </div>
+		  
+			  <!-- Thumbnail image controls -->
+
+			  <div class="column">
+				<img class="demo" src="./images/thumb/thumbnail_1.png" onclick="currentSlide(1)" alt="TJ Hunts Racing Green Lamborghini Huracan">
+			  </div>
+		  
+			  <div class="column">
+				<img class="demo" src="./images/thumb/thumbnail_2.png" onclick="currentSlide(2)" alt="TJ Hunts Racing Green Ferrari four-five-eight GT3">
+			  </div>
+		  
+			  <div class="column">
+				<img class="demo" src="./images/thumb/thumbnail_3.png" onclick="currentSlide(3)" alt="Black Street Hunter Widebody Mk Five Supra">
+			  </div>
+		  
+			  <div class="column">
+				<img class="demo" src="./images/thumb/thumbnail_4.png" onclick="currentSlide(4)" alt="Black S650 Mustang Dark Horse">
+			  </div>
+
+			  <div class="column">
+				<img class="demo" src="./images/thumb/thumbnail_5.png" onclick="currentSlide(5)" alt="Black Porsche C911 GT3 RS">
+			  </div>
+
+			  <div class="column">
+				<img class="demo" src="./images/thumb/thumbnail_6.png" onclick="currentSlide(6)" alt="Carbon Silver Mercedes SLS AMG GTR">
+			  </div>
+
+			  <div class="column">
+				<img class="demo" src="./images/thumb/thumbnail_7.png" onclick="currentSlide(7)" alt="Grabber Blue Widebody BMW M4 Slammed">
+			  </div>
+
+			  <div class="column">
+				<img class="demo" src="./images/thumb/thumbnail_8.png" onclick="currentSlide(8)" alt="Carbon Grey Hennessey Chevy Camaro Exorcist">
+			  </div>
+
+			  <div class="column">
+				<img class="demo" src="./images/thumb/thumbnail_9.png" onclick="currentSlide(9)" alt="R34 Midnight Purple Nissian GTR Skyline">
+			  </div>
+			</div>
+		  </div>
+		  <!--LightBox Trial-->
 		<!--RSVP-->
 		<section id="contact">
 			<div class="container">
